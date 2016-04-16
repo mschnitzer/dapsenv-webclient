@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> DAPS Build Environment Client </title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery.js" ></script>
+  <script type="text/javascript" src="js/client.js" ></script>
+ </head>
+ <body>
+ 
+  <div class="page-title"> DAPS Build Environment Client </div>
+
+  <div id="loading">
+   <img src="images/loading.gif" />
+  </div>
+
+  <div id="connectionError" class="hide-container">
+   <div class="alert alert-danger">
+    The connection to the DAPS Build Environment API server could not be established! Please check if
+    the API server is running and if the the server address and the port are correct in <strong>js/client.js</strong>!
+   </div>
+  </div>
+
+  <div id="content" class="hide-container">
+   <div class="well">
+    <table border="0">
+     <tr>
+      <td width="180"><strong>Running Builds</strong></td>
+      <td><div class="runningBuilds">0</div></td>
+     </tr>
+    </table>
+   </div>
+  </div>
+
+ </body>
+</html>

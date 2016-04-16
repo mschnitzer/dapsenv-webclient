@@ -1,0 +1,23 @@
+body {
+	font-size: 12px;
+	padding: 10pt;
+}
+
+.hide-container {
+	display: none;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.page-title {
+	text-align: center;
+	font-size: 19px;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+#loading {
+	text-align: center;
+}
